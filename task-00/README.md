@@ -1,0 +1,1 @@
+I installed Zorin OS as my daily driver. I faced some problems with nvidia drivers, especially in playing minecraft, but I was successful nonetheless. I've used Ubuntu before but its my first time using linux on modern hardware.
