@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine Dragons | Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body style="background-color: var(--primary-bg-light);">
+    <main-header></main-header>
+    <div class="main">
+    <div class="container" id="container">
+
+        <script>
+
+            fetch('items.json')
+              .then(response => response.json())
+              .then(data => {
+      
+                data.forEach(item => {
+                  const card = document.createElement('div');
+      
+                  card.classList.add("card")
+
+                  card.innerHTML = `
+                  <div class="img-container">
+                  <img src=${item.img} alt=${item.name}></div>
+            <div class="card-content">
+                <div class="product-name">${item.name}</div>
+                <div class="product-price">${item.price}</div>
+            </div>
+            <div class="color-strip"></div>
+                              `;
+      
+                  document.getElementById('container').appendChild(card);
+                });
+              })
+              .catch(error => {
+                console.error(error);
+              });
+          </script>
+
+
+       
+    </div>
+    </div>
+</body>
+</html>

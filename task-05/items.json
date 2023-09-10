@@ -1,0 +1,63 @@
+[
+    {
+        "name":"Origins Vinyl + Digital Album",
+        "img":"assets/item_cards/origins_vinyl.png",
+        "price":"₹2800"
+    },
+    {
+        "name":"Floral Logo Tan Hoodie",
+        "img":"assets/item_cards/floral_hoodie.png",
+        "price":"₹3200"
+    },
+    {
+        "name":"Next To Me A3 Poster",
+        "img":"assets/item_cards/next_to_me_poster.png",
+        "price":"₹1800"
+    },
+    {
+        "name":"Vegas Trucker Hat",
+        "img":"assets/item_cards/cap.png",
+        "price":"₹1500"
+    },
+    {
+        "name":"Imagine A1 Poster",
+        "img":"assets/item_cards/imagine_poster.png",
+        "price":"₹1800"
+    },
+    {
+        "name":"Mercury - Act I Deluxe CD",
+        "img":"assets/item_cards/mercury_I.png",
+        "price":"₹1800"
+    },
+    {
+        "name":"Imagine Dragons Keychain",
+        "img":"assets/item_cards/keychain.png",
+        "price":"₹600"
+    },
+    {
+        "name":"Vintage Graphic Hoodie",
+        "img":"assets/item_cards/vintage_hoodie.png",
+        "price":"₹3400"
+    },
+    {
+        "name":"Mercury Act II Vinyl",
+        "img":"assets/item_cards/mercury_II.png",
+        "price":"₹2200"
+    },
+    {
+        "name":"Vintage Vegas Water Bottle",
+        "img":"assets/item_cards/bottle.png",
+        "price":"₹2000"
+    },
+    {
+        "name":"Night Visions Cassette",
+        "img":"assets/item_cards/cassette.png",
+        "price":"₹1100"
+    },
+    {
+        "name":"Bones Treat Bag",
+        "img":"assets/item_cards/tote.png",
+        "price":"₹1500"
+    }
+    
+]
